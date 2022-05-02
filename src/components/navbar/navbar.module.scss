@@ -1,0 +1,38 @@
+.brand {
+  position: relative;
+  color: #fff;
+  animation: flip;
+  animation-duration: 3s;
+  transition: 0.7s;
+}
+
+.brand span {
+  color: #cfbe11;
+}
+
+.brand h1 {
+  font-size: 3em;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu a {
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  letter-spacing: 2px;
+  font-size: 1.2em;
+  transition: 0.7s;
+}
+
+.menu .active a {
+  color: #cfbe11;
+}
+
+.menu a:hover {
+  color: #cfbe11;
+  transition: ease-in 0.5s;
+}
